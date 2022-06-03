@@ -1,0 +1,84 @@
+.grid-container {
+    margin: 20px;
+  }
+  
+  .dashboard-card {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+  }
+  
+  .more-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  
+  .dashboard-card-content {
+    text-align: center;
+  }
+  
+  .hdiv {
+
+    background-color: #ffffff;
+    font-family:Trebuchet MS;
+    font-size:15px;
+    border-radius:15px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-left:25px;
+    padding-right:25px;
+
+    /*centering div*/
+    width: 400px;
+    height: 480px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -270px 0 0 -250px;
+
+}
+
+/* email and password textboxes*/
+input[type=text], [type=password]{
+    background-color:transparent;
+    width: 100%;
+    padding-bottom: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+}
+
+/*submit button*/
+input[type=submit]{
+    width: 50%;
+    height: 50px;
+    background-color: #001D3D;
+    font-family:Trebuchet MS;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size:15px;
+    cursor: pointer;
+    text-align:center;
+    display: block;
+    margin: 0 auto;
+}
+
+
+input[type=submit]:hover {
+    background-color: #FFC300;
+}

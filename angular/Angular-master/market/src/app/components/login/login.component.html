@@ -1,0 +1,36 @@
+<div class="grid-container">
+<div class="hdiv">
+    <br/><br /><br />
+    <h1>Sign In</h1>
+    <h1>Welcome!<br /><br /><br /></h1>
+    <form name="Login" action="LoginServlet" onsubmit="return validateForm()" method="post">
+    <section class="rtop">Signing in as:</section> <br /><br />
+    
+        <section class="additional"><p class=textdecors class=removepadding>Email:</p></section>
+        <input type="text" id="email" name="email" placeholder="Enter your email address">
+        <br />
+        <section class="additional"><p class=textdecors class=removepadding>Password:</p></section>
+        <input type="password" id="pass" name="pass" placeholder="Enter the password">
+
+    <input type="submit" name="submitbutton4" value="Sign In">
+
+        <a href="#">Forgot Password?</a> <br /><br />
+
+</form>
+<script>
+    function validateForm() {
+        let x = document.forms["Login"]["email"].value;
+        if (x == "") {
+            alert("Enter email address");
+            return false;
+        }
+        let y = document.forms["Login"]["pass"].value;
+        if (y == "") {
+            alert("Enter password");
+            return false;
+        }
+    }
+</script> 
+
+</div>
+</div>

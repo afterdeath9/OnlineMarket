@@ -1,0 +1,33 @@
+.grid-container {
+    margin: 50px;
+  }
+
+ 
+
+.tab h2{
+    margin-left: 420px;
+    padding-bottom: 20px;
+}
+
+.tab table{
+    border-collapse: collapse;
+    margin-left: 400px;
+    width: 60%;
+
+}
+
+/*.tab th,td{
+    width: 35px;
+}*/
+
+
+.details th,td{
+    text-align: left;
+    padding: 15px;
+    column-width: 25px;
+}
+
+.details table{
+    width: 30%;
+    margin-left: 670px;
+}
